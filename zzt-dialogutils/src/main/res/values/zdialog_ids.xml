@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dialog -->
+    <item name="z_dialog_root_layout" type="id" />
+    <item name="z_dialog_parent_layout" type="id" />
+    <item name="z_dialog_top_image" type="id" />
+    <item name="z_dialog_right_delete" type="id" />
+    <item name="z_dialog_content_layout" type="id" />
+    <item name="z_dialog_operator_layout" type="id" />
+    <item name="z_dialog_bottom_delete" type="id" />
+</resources>

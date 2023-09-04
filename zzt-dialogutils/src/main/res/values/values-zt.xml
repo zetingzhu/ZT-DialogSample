@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--项目的Theme-->
+    <style name="TestBaseTheme" parent="AppBaseTheme">
+        <item name="TestAttr">1</item>
+        <item name="TestAttr2">1</item>
+        <item name="itemTestAttr">@style/ThemeStyleTestAttr</item>
+    </style>
+
+    <attr name="itemTestAttr" format="reference" />
+
+    <style name="ThemeStyleTestAttr">
+        <item name="TestAttr2">3</item>
+    </style>
+
+    <style name="DefaultAttrStyle">
+        <item name="TestAttr">2</item>
+        <item name="TestAttr2">2</item>
+    </style>
+
+    <!--自定义的attr集-->
+    <declare-styleable name="TestAttrStyleable">
+        <attr name="TestAttr" format="integer" />
+        <attr name="TestAttr2" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="zt_attr_btn">
+        <attr name="zTextSize" format="dimension"></attr>
+        <attr name="zBG" format="reference|color"></attr>
+    </declare-styleable>
+
+    <style name="zt_btn_style">
+        <item name="zTextSize">12dp</item>
+        <item name="zBG">@drawable/ic_cursor</item>
+    </style>
+
+
+</resources>
